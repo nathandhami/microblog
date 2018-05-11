@@ -20,8 +20,5 @@ class Config(object):
     MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
     ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
     POSTS_PER_PAGE = 25
-<<<<<<< HEAD
     LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
-=======
     REDIS_URL = os.environ.get('REDIS_URL') or 'redis://'
->>>>>>> origin/mod_linux
